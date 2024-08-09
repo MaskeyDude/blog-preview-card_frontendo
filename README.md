@@ -55,8 +55,7 @@ Then you can use the font yay!
 ```css
 p {
   font-family: "FontName", sans-serif;
-}
-```
+}```
 
 + that I really like using live server when coding but it overheats my laptop TnT
 
