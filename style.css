@@ -1,9 +1,7 @@
-/* Yellow: hsl(47, 88%, 63%)
-
-White: hsl(0, 0%, 100%)
-
-Gray 500: hsl(0, 0%, 42%)
-Gray 950: hsl(0, 0%, 7%) */
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
 
 * {
     margin: 0;
@@ -17,6 +15,7 @@ Gray 950: hsl(0, 0%, 7%) */
 
 body {
     font-family: "Figtree", sans-serif;
+    /* font-family: sans-serif; */
     background-color: hsl(47, 88%, 63%);
 }
 
@@ -28,7 +27,7 @@ main {
 /* card styling */
 
 .container {
-    width: min-content;
+    width: 24em;
     margin: 0 auto;
     padding: 1.4em 1.46em;
     background-color: hsl(0, 0%, 100%);
@@ -38,37 +37,40 @@ main {
 }
 
 .illustration img {
+    width: 100%;
+    height: 100%;
     border-radius: 0.6em;
     margin-bottom: 0.4em;
 }
 
 .category {
     width: min-content;
-    margin: 1em 0 1.1em 0;
-    padding: 0.66em 0.9em;
+    margin: 1em 0 1em 0;
+    padding: 0.4em 0.9em;
     border-radius: 0.4em;
-    font-size: 0.75em;
+    font-size: 0.86em;
     font-weight: 800;
     color: #121212;
     background-color: #f4d04e;
 }
 
 .date {
-    font-size: 0.8em;
-    margin: 0 0 1.46em 0;
+    font-size: 0.86em;
+    font-weight: 500;
+    margin: 0 0 1.2em 0;
 }
 
 .blog-title {
-    margin-bottom: 1em;
-    font-size: 1.3em;
+    margin-bottom: 0.7em;
+    font-size: 1.5em;
     font-weight: 800;
 }
 
 .blog-desc {
     color: #6b6b6b;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    margin: 0.6em 0 1.96em 0;
+    margin: 0.6em 0 1.2em 0;
     line-height: 1.6em;
 }
 
@@ -79,14 +81,26 @@ main {
 }
 
 .blog-by img {
-    width: 9.5%;
-    margin: 0 0.8em 0 0;
+    width: 9.6%;
+    margin: 0 0.75em 0 0;
 }
 
 .name {
     color: #121212;
     font-weight: 800;
-    font-size: 0.75em;
+    font-size: 0.86em;
+}
+
+/* moblellelelel */
+
+@media (max-width: 650px) {
+    .container {
+        width: 88%;
+    }
+
+    .blog-title {
+        font-size: 1.1em;
+    }
 }
 
 
