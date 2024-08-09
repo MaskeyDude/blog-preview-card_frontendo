@@ -45,18 +45,18 @@ Mobile Version
 I already knew this but it was forgotton as I didn't use it as much. After downloading the font you'll have a .ttf file so just:
 
 ```css
-@font-face {
-    font-family: "FontName";
-    src: url(./fonts/font-name_wght.ttf);
-}
+  @font-face {
+      font-family: "FontName";
+      src: url(./fonts/font-name_wght.ttf);
+  }
 ```
 
 Then you can use the font yay!
 
 ```css
-p {
-  font-family: "FontName", sans-serif;
-}
+  p {
+    font-family: "FontName", sans-serif;
+  }
 ```
 
 + that I really like using live server when coding but it overheats my laptop TnT
