@@ -48,14 +48,16 @@ I already knew this but it was forgotton as I didn't use it as much. After downl
 @font-face {
     font-family: "FontName";
     src: url(./fonts/font-name_wght.ttf);
-}```
+}
+```
 
 Then you can use the font yay!
 
 ```css
 p {
   font-family: "FontName", sans-serif;
-}```
+}
+```
 
 + that I really like using live server when coding but it overheats my laptop TnT
 
