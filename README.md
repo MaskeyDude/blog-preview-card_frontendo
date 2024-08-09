@@ -8,7 +8,7 @@
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned?](#what-i-learned?)
-- [Thougts](#thoughts)
+- [Thoughts](#thoughts)
 - [Author](#author)
 
 
