@@ -1,0 +1,145 @@
+/* Yellow: hsl(47, 88%, 63%)
+
+White: hsl(0, 0%, 100%)
+
+Gray 500: hsl(0, 0%, 42%)
+Gray 950: hsl(0, 0%, 7%) */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #f4d04e;
+    background-color: #121212;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    padding: 15em 0;
+    min-height: 100vh;
+}
+
+/* card styling */
+
+.container {
+    width: min-content;
+    margin: 0 auto;
+    padding: 1.4em 1.46em;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #000;
+    border-radius: 1.3em;
+    box-shadow: 8px 8px 0 0px #000;
+}
+
+.illustration img {
+    border-radius: 0.6em;
+    margin-bottom: 0.4em;
+}
+
+.category {
+    width: min-content;
+    margin: 1em 0 1.1em 0;
+    padding: 0.66em 0.9em;
+    border-radius: 0.4em;
+    font-size: 0.75em;
+    font-weight: 800;
+    color: #121212;
+    background-color: #f4d04e;
+}
+
+.date {
+    font-size: 0.8em;
+    margin: 0 0 1.46em 0;
+}
+
+.blog-title {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.blog-desc {
+    color: #6b6b6b;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0.6em 0 1.96em 0;
+    line-height: 1.6em;
+}
+
+.blog-by {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blog-by img {
+    width: 9.5%;
+    margin: 0 0.8em 0 0;
+}
+
+.name {
+    color: #121212;
+    font-weight: 800;
+    font-size: 0.75em;
+}
+
+
+/* footer */
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: #fff;
+    background-color: #121212;
+}
+
+.attribution a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.frontendo {
+    margin: 0 0.4em;
+    padding: 1em;
+    color: #9e9e9e;
+    /* border-radius: 0.4em; */
+    border-bottom: 1px dashed #f4d04e;
+    transition: 0.6s;
+}
+
+.frontendo:hover {
+    font-size: 1.1em;
+    border: 1px solid;   
+    border-radius: 0 1em 0 1em;
+}
+
+.frontendo a:hover {
+    color: #f4d04e;
+}
+
+.mine {
+    margin: 0 0.4em;
+    padding: 1em;
+    color: #9e9e9e;
+    border-top: 1px solid #f4d04e;
+    transition: 0.6s;
+}
+
+.mine:hover {
+    font-size: 1.1em;
+    border: 1px dashed #f4d04e;
+    border-radius: 1em 0 1em 0;
+}
+
+.mine a:hover {
+    color: #f4d04e;
+}
